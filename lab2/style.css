@@ -45,6 +45,8 @@ img {
     grid-template-columns: auto;
   }
 }
+@media screen and (max-width: 600px) {
+}
 
 /* MAIN CONTAINER */
 .header-container {
@@ -60,4 +62,34 @@ img {
 
 .header-container > div:nth-child(3) {
   margin: 0 0 0 auto;
+}
+
+/* Intro container */
+.intro-container {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 20% 50% 30%;
+}
+
+.nav-menu {
+  background-color: lightblue;
+}
+
+.content {
+  background-color: azure;
+}
+
+.blog {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: black;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footer > div {
+  border: solid pink 2px;
 }

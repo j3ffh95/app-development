@@ -53,6 +53,7 @@ img {
   background-color: firebrick;
   color: white;
   display: flex;
+  width: 100%;
 }
 
 .header-container > div {
@@ -85,6 +86,7 @@ img {
 
 .footer {
   background-color: black;
+  color: white;
   height: 200px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -92,4 +94,32 @@ img {
 
 .footer > div {
   border: solid pink 2px;
+}
+
+/* Tablet View 900 Pixels */
+@media screen and (max-width: 900px) {
+  .nav-menu {
+    background-color: olive;
+  }
+
+  .content {
+    background-color: aliceblue;
+    grid-column: span 2;
+  }
+
+  .blog {
+    background-color: purple;
+    grid-column: span 3;
+  }
+}
+
+/* Smartphone View 600 Pixels */
+@media screen and (max-width: 600px) {
+  .nav-menu {
+    grid-column: span 3;
+  }
+
+  .content {
+    grid-column: span 3;
+  }
 }

@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: firebrick;
+}
+
+/* SHAPES */
+
+.shapeContainer {
+  width: 800px;
+  margin: 20px auto;
+  background-color: azure;
+  padding: 20px;
+  text-align: center;
+}
+
+.shapeDiv {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}

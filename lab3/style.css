@@ -10,7 +10,7 @@
 /* SHAPES */
 
 .shapeContainer {
-  width: 800px;
+  width: 500px;
   margin: 20px auto;
   background-color: azure;
   padding: 20px;
@@ -18,8 +18,33 @@
 }
 
 .shapeDiv {
-  height: 200px;
   width: 200px;
+  color: purple !important;
+}
+
+.square {
+  width: 200px;
+  background-color: aqua;
+}
+
+.rectangle {
+  width: 400px;
+  background-color: green;
+}
+
+.circle {
+  width: 200px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.square,
+.rectangle,
+.circle {
+  height: 200px;
+  color: antiquewhite;
+  font-size: 1.5em;
   text-align: center;
-  vertical-align: middle;
+  padding-top: 10%;
+  margin: 20px auto;
 }

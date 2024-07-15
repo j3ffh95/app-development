@@ -5,6 +5,7 @@
 .title {
   text-align: center;
   color: firebrick;
+  margin-top: 100px;
 }
 
 /* SHAPES */
@@ -47,4 +48,48 @@
   text-align: center;
   padding-top: 10%;
   margin: 20px auto;
+}
+
+/* Collapsible Nav Menu */
+
+.header-container,
+.navMenu {
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+.header-container > div,
+.navMenu > div {
+  /* border: 1px solid blue; */
+  padding: 20px;
+}
+
+.header-container > div:nth-child(2) {
+  margin: 0 0 0 auto;
+}
+
+.headerNav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.navMenu {
+  display: none;
+}
+.navMenu > div:nth-child(2) {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container {
+    display: none;
+  }
+
+  .navMenu {
+    display: flex;
+  }
 }
